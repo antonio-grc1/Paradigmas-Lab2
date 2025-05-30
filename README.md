@@ -17,3 +17,10 @@ Java development kit (JKD)
 No arguments: prints the article in a human-readable format.
 With one argument: uses a heuristic to compute a set of named entities from the feeds and their number of occurrences (global, by class, and by subclass), and displays the results in a table format.
 
+
+Available heuristics:
+                          - QuickHeuristic  "q"  Computes entities using the Quick Heuristic.
+
+
+                          - RandomHeuristic "r"  Computes entities using the Random Heuristic.
+
