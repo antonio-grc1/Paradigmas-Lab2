@@ -25,7 +25,6 @@ public class HttpRequester {
 			int status = connection.getResponseCode();
 			if(status != 200){
 				System.err.println("ERROR: Connection Error");
-				System.exit(1);
 			}
 
 			BufferedReader in = new BufferedReader(
@@ -40,7 +39,6 @@ public class HttpRequester {
 			feedRssXml = content.toString();
 		}catch(IOException e){
 			System.err.println("ERROR: IOException");
-			System.exit(1);
 		}
 		return feedRssXml;
 	}

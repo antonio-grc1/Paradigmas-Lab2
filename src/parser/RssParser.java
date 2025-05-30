@@ -46,7 +46,6 @@ public class RssParser extends GeneralParser<List<Article>> {
             xmldoc = docBuilder.parse(input);
         } catch (Exception e) {
             System.err.println("ERROR: Error parsing XML");
-            System.exit(1);
         }
 
         return xmldoc;
@@ -74,7 +73,7 @@ public class RssParser extends GeneralParser<List<Article>> {
                 pubDate = formatter.parse(stringDate);
             } catch (Exception e) {
                 System.err.println("ERROR: Date formatter error");
-                System.exit(1);
+                pubDate = null;
             }
         }
         return new Article(title, description, pubDate, link);
