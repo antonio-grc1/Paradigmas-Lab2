@@ -1,5 +1,9 @@
 ## Laboratorio 2 - Paradigmas de Programacion - FAMAF UNC
 
+### Dependecias:
+Java development kit (JKD)
+
+`sudo apt install openjdk-17-jdk`
 
 ### Compilar:
 
