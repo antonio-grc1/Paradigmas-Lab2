@@ -19,8 +19,9 @@ With one argument: uses a heuristic to compute a set of named entities from the 
 
 
 Available heuristics:
-                          - QuickHeuristic  "q"  Computes entities using the Quick Heuristic.
+
+QuickHeuristic  "q"  Computes entities using the Quick Heuristic.
 
 
-                          - RandomHeuristic "r"  Computes entities using the Random Heuristic.
+RandomHeuristic "r"  Computes entities using the Random Heuristic.
 
